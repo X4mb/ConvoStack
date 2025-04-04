@@ -1,0 +1,15 @@
+{
+    "label": "Commit and Push",
+    "type": "shell",
+    "command": "cmd.exe",
+    "args": [
+      "/c",
+      "git add . && git commit -m \"Update_project\" && git push"
+    ],
+    "group": {
+      "kind": "build",
+      "isDefault": true
+    },
+    "problemMatcher": []
+  }
+  

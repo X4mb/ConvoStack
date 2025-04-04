@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/X4mb/ConvoStack#readme",
   "dependencies": {
+    "fs-extra": "^11.3.0",
     "node-telegram-bot-api": "^0.66.0"
   }
 }
