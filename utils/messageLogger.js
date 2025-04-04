@@ -3,7 +3,6 @@ const path = require('path');
 
 const logFile = path.join(__dirname, '../config/messages.json');
 
-// Ensure the file exists
 fs.ensureFileSync(logFile);
 
 const loadMessages = async () => {
@@ -26,4 +25,9 @@ const saveMessage = async (message) => {
     }
 };
 
-module.exports = { saveMessage };
+const getLastMessages = async (count = 5) => {
+    const messages = await loadMessages();
+    return messages.slice(-count);
+};
+
+module.exports = { saveMessage, getLastMessages };
