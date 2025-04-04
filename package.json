@@ -1,0 +1,23 @@
+{
+  "name": "convostack",
+  "version": "1.0.0",
+  "description": "**ConvoStack** is a unified messaging platform that brings Telegram, Slack, Discord, and other API-friendly chat services into one interface.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/X4mb/ConvoStack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/X4mb/ConvoStack/issues"
+  },
+  "homepage": "https://github.com/X4mb/ConvoStack#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
